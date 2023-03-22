@@ -202,3 +202,14 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.Typewriter__wrapper {
+  font-size: 2.0em !important;
+  color: red !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #191919 !important;
+}

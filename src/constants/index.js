@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  nyutest,
+  cordelia,
+  damac,
+  logo,
+  qburst,
+  emphasys
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +40,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+  // {
+  //   id: "resume",
+  //   title: "Resume",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -46,16 +56,16 @@ const services = [
     icon: web,
   },
   {
+    title: "React Developer",
+    icon: creator,
+  },
+  {
     title: "React Native Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -93,11 +103,11 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "PHP",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Next JS",
     icon: threejs,
   },
   {
@@ -116,57 +126,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Senior Software Engineer & Team Lead",
+    company_name: "QBurst",
+    icon: qburst,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2019 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lead a team of 4 full-time engineers, participated in the roadmap definition for the team, established engineering best practices and was a mentor to the other members of the team",
+      "Design and Implementation of new features, including re-usable components in React for partners to use in different platforms like B2B and B2C",
+      "Develop cross-browser, cross-devices high-quality, high-performance, beautiful, maintainable front-end code using React.js, Next JS, React native, JavaScript, HTML5, CSS3, JSP, jQuery, Tailwind CSS, babel and JSON Web Token",
+      "Designed mobile applications for Apple and Android platforms using React Native and PhoneGap",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Amazecodes Solutions",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jul 2017 - Aug 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Add a new monitor for job runs, services and database, auto-send an email and open new tickets for an involved engineer to investigate",
+      "Involved in writing application-level code to interact with Web services using Ajax, JSON, GraphQL and WordPress API. As DevOps modal includes coding, testing, and deploying the feature to Azure Cloud System",
+      "Implemented unit and integration tests to deliver high-quality features using Jest and Selenium consistently.",
+      "Work with defect tracking, code review source code control and software release systems to ensure high-quality software releases over time.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Accosiate Software Developer",
+    company_name: "Emphasys",
+    icon: emphasys,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2015 - Jun 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participate in the design with Project Manager, Team Leader and another team member. Prepare the user document, include API and database design, and use 3-tier architecture for this project.",
+      "Created forms using the yii2 framework for all customers to enter their information and convert that to PDF for downloading.",
+      "Designed visual and graphic images to use on multiple platforms",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -196,14 +192,49 @@ const testimonials = [
   },
 ];
 
+const blogs = [
+  {
+    title:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    title:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    title:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    title:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "NYU Eye Test",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The NYU Langone Eye Test app allows you to perform a visual assessment on your Android phone in preparation for a video visit or in-person appointment with your eye care provider.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -215,51 +246,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: nyutest,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Cordelia Cruises",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Cordelia Cruises by Waterways Leisure Tourism Pvt Ltd is India's premium cruise liner. True to its name, Cordelia aspires to promote and drive the cruises",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "next js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cordelia,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Damac",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "DAMAC Agents app is an ultimate platform for real estate brokers that lets you check all the property details, including the size, location, standard, and additional features right on the listing and compare offers.",
     tags: [
       {
-        name: "nextjs",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: damac,
     source_code_link: "https://github.com/",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

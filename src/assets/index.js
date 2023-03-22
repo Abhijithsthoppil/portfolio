@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import nyutest from "./nyutest.png";
+import cordelia from "./cordelia.png";
+import damac from "./damac.png";
+
+import qburst from "./QBurstlogo.svg";
+import emphasys from "./e-symbol.png";
+
 export {
   logo,
   backend,
@@ -59,4 +66,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  nyutest,
+  cordelia,
+  damac,
+  qburst,
+  emphasys
 };

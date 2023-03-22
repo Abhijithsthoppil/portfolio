@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -16,11 +17,23 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Liron</span>
+            Hi, I'm <span className="text-[#915EFF]">Abhijith</span>
           </h1>
+          <Typewriter
+            options={{
+              strings: [
+                "React Js Developer",
+                "Front End Developer",
+                "React Native Developer",
+              ],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 50,
+            }}
+          />
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I design and develop services for customers of all sizes, <br/>specializing in creating stylish, <br className="sm:block hidden" />
+            modern websites, web services and online stores.
           </p>
         </div>
       </div>

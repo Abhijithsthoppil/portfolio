@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Blogs from "./Blogs"  
 
 
 export {
@@ -18,6 +19,7 @@ export {
   Experience,
   Works,
   Feedbacks,
+  Blogs,
   Contact,
   CanvasLoader,
   EarthCanvas, 
